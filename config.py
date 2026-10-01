@@ -33,10 +33,10 @@ PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "30"))
 MAX_USER_PLAY_LIMIT = int(getenv("MAX_USER_PLAY_LIMIT", 10))
 
 # ── External APIs ──────────────────────────────────────────────────────────────
-COOKIE_URL = getenv("COOKIE_URL")  # required (paste link)
-API_URL = getenv("API_URL")        # optional
-API_KEY = getenv("API_KEY")        # optional
-DEEP_API = getenv("DEEP_API")      # optional
+COOKIE_URL = getenv("COOKIE_URL", "")  # optional (cookies disabled, API-only mode)
+API_URL = getenv("API_URL", "")        # optional
+API_KEY = getenv("API_KEY", "")        # optional
+DEEP_API = getenv("DEEP_API", "")      # optional
 
 # ── Hosting / deployment ───────────────────────────────────────────────────────
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
