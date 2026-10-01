@@ -14,14 +14,14 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 OWNER_ID = int(getenv("OWNER_ID", 8921626776))
 OWNER_USERNAME = getenv("OWNER_USERNAME", "MR_KALVAN")
 BOT_USERNAME = getenv("BOT_USERNAME", "@BOMMYMUSICBOT")
-BOT_NAME = getenv("BOT_NAME", "˹˹𝐁ᴏᴍᴍʏ ♪ ᴍᴜꜱɪᴄ ˼")
+BOT_NAME = getenv("BOT_NAME", "˹˹ʀᴏʙᴏᴛ ғᴜᴄᴋᴇʀ ♘ ᴋɪɴɢ ˼")
 ASSUSERNAME = getenv("ASSUSERNAME", "musicxbommy")
 
 # ── Database & logging ─────────────────────────────────────────────────────────
 MONGO_DB_URI = getenv("MONGO_DB_URI")
 LOGGER_ID = int(getenv("LOGGER_ID", -1004330228401))
 
-# ── Limits (durations in min/sec; sizes in bytes) ──────────────────────────────
+# ── Limits (durations in min/sec; sizes in bytes) ─────────────────────────────
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 300))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION", "1200"))
 SONG_DOWNLOAD_DURATION_LIMIT = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "1800"))
@@ -97,64 +97,64 @@ def time_to_seconds(time: str) -> int:
 
 DURATION_LIMIT = time_to_seconds(f"{DURATION_LIMIT_MIN}:00")
 
-# ───── Bot Introduction Messages ───── #
+# ──── Bot Introduction Messages ──── #
 AYU = [
-    "ꜰɪɴᴅɪɴɢ ʏᴏᴜʀ ᴛᴜɴᴇ, ʙᴀʙʏ... 💞",
-    "ѕᴏɴɢ ʟᴏᴀᴅɪɴɢ ғᴏʀ ᴍʏ ʙᴀʙʏ 💋",
-    "ʏᴏᴜʀ ғᴀᴠᴏʀɪᴛᴇ ᴠɪʙᴇ ɪs ʟᴏᴀᴅɪɴɢ… 🎧",
-    "💞 ғɪɴᴅɪɴɢ ʏᴏᴜʀ ᴀɴɴɪᴇᴍᴜsɪᴄ ᴛᴜɴᴇ... 🎧",
+    "ᴋᴇᴇᴘ ɢᴏɪɴɢ ᴏɴ, ᴡᴏʀʟᴅ... 💞",
+    "ᴛʜᴇ ᴡᴏʀʟᴅ ɪs ʏᴏᴜʀs ᴛᴏ ᴡɪɴ 💋",
+    "ᴡᴏʀʟᴅ ᴡᴀʀᴍɪɴɢ ɪs ᴋɪʟʟɪɴɢ ᴜs… 🎧",
+    "💞 ᴛʜᴇ ᴡᴏʀʟᴅ ᴡɪʟʟ ᴍᴇᴍᴏʀɪᴢᴇ ʏᴏᴜ... 🎧",
 ]
 
 AYUV = [
-    """ʜᴇʟʟᴏ {0}, 🥀
+    """ᴛʜᴀɴᴋs {0}, 🥀
 
-ɪᴛ'ꜱ ᴍᴇ {1} !
+ɪᴛ's ᴍᴇ {1} !
 
-┏━━━━━━━━━━━━━━━━━⧫
-┠ ◆ ꜱᴜᴘᴘᴏʀᴛɪɴɢ ᴘʟᴀᴛꜰᴏʀᴍꜱ : ʏᴏᴜᴛᴜʙᴇ, ꜱᴘᴏᴛɪꜰʏ,
-┠ ◆ ʀᴇꜱꜱᴏ, ᴀᴘᴘʟᴇᴍᴜꜱɪᴄ , ꜱᴏᴜɴᴅᴄʟᴏᴜᴅ ᴇᴛᴄ.
-┗━━━━━━━━━━━━━━━━━⧫
-┏━━━━━━━━━━━━━━━━━⧫
-┠ ➥ Uᴘᴛɪᴍᴇ : {2}
-┠ ➥ SᴇʀᴠᴇʀSᴛᴏʀᴀɢᴇ : {3}
-┠ ➥ CPU Lᴏᴀᴅ : {4}
-┠ ➥ RAM Cᴏɴsᴜᴘᴛɪᴏɴ : {5}
-┠ ➥ ᴜꜱᴇʀꜱ : {6}
-┠ ➥ ᴄʜᴀᴛꜱ : {7}
-┗━━━━━━━━━━━━━━━━━⧫
+─────────────────
+▸ ᴛʀᴀᴄᴋs ᴘʟᴀʏᴇᴅ : ᴡᴏʀʟᴅᴡɪᴅᴇ, ᴛʀᴀᴄᴋs,
+▸ ᴡᴇʟᴄᴏᴍᴇ, sᴜᴘᴘᴏʀᴛᴇʀs , ᴡᴏʀʟᴅ ᴍᴀɴᴀɢᴇʀ ᴇᴛᴄ.
+─────────────────
+─────────────────
+▸ ᴜᴘᴛɪᴍᴇ : {2}
+▸ SʏsᴛᴇᴍSᴛᴀᴛᴜs : {3}
+▸ CPU Lᴏᴀᴅ : {4}
+▸ RAM Cᴏɴsᴜᴍᴘᴛɪᴏɴ : {5}
+▸ ᴘʟᴜɢɪɴs : {6}
+▸ ᴠᴇʀsɪᴏɴ : {7}
+─────────────────
 
-🫧 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🪽 ➪ [»»—— ⭕ ғͥғɪᴄͣɪͫ͢͢͢ᴀℓ 🇷 AJ »︎](https://t.me/RAJOWNERX1)
+🫧 ᴅᴇᴠᴇʟᴏᴘᴇʀ 🪪 ➪ [»»—— ⭕ ғᴜᴄᴋɪɴɢ ʜᴇʟʟ ʏᴇᴀʜ 🎵 AJ »](https://t.me/RAJOWNERX1)
 """,
 
     """ʜɪɪ, {0} ~
 
-◆ ɪ'ᴍ ᴀ {1} ᴛᴇʟᴇɢʀᴀᴍ ꜱᴛʀᴇᴀᴍɪɴɢ ʙᴏᴛ ᴡɪᴛʜ ꜱᴏᴍᴇ ᴜꜱᴇꜰᴜʟ
-◆ ᴜʟᴛʀᴀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ ꜰᴇᴀᴛᴜʀᴇꜱ.
+◈ ɪ'ᴍ {1} ᴛʜᴇ ᴡᴇʟᴄᴏᴍᴇ ᴘʟᴜɢɪɴ ғᴏʀ ᴛʜɪs ɢʀᴏᴜᴘ
+◈ ᴛʜɪs ɢʀᴏᴜᴘ ʜᴀs ᴛʜᴇ ᴍᴏsᴛ ᴘʀᴇᴀᴄᴛɪᴠᴇ ᴍᴇᴍʙᴇʀs.
 
-✨ ꜰᴇᴀᴛᴜʀᴇꜱ ⚡️
-◆ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs.
-◆ Sᴜᴘᴇʀғᴀsᴛ ʟᴀɢ Fʀᴇᴇ ᴘʟᴀʏᴇʀ.
-◆ ʏᴏᴜ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜꜱɪᴄ + ᴠɪᴅᴇᴏ.
-◆ ʟɪᴠᴇ ꜱᴛʀᴇᴀɴɪɴɢ.
-◆ ɴᴏ ᴘʀᴏᴍᴏ.
-◆ ʙᴇꜱᴛ ꜱᴏᴜɴᴅ Qᴜᴀʟɪᴛʏ.
-◆ 24×7 ʏᴏᴜ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜꜱɪᴄ.
-◆ ᴀᴅᴅ ᴛʜɪꜱ ʙᴏᴛ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ɪᴛ ᴀᴅᴍɪɴ ᴀɴᴅ ᴇɴᴊᴏʏ ᴍᴜꜱɪᴄ 🎵.
+✨ ᴘʀᴇᴀᴄᴛɪᴠᴇ ⚡️
+◈ ᴡᴏʀʟᴅ ᴛʜᴇ ᴡᴇʟᴄᴏᴍᴇ ɢʀᴏᴜᴘs.
+◈ SᴛᴀʏTʜᴇᴍᴇ ᴡɪʟʟ Fʀᴇᴇ ᴘʟᴜɢɪɴ.
+◈ ᴡᴏʀʟᴅ ᴠɪᴅ ᴘʟᴜɢɪɴ + ʟᴏɢ.
+◈ ʟɪᴠᴇ ᴛʜᴇᴍᴇ ᴘʟᴀʏɪɴɢ.
+◈ ɴᴏ ᴘʀᴏʙʟᴇᴍ.
+◈ ᴡᴇʟᴄᴏᴍᴇ ᴍᴀɴᴀɢᴇʀ Qᴜɪᴢ.
+◈ 24×7 ᴡᴏʀʟᴅ ᴛʜᴇ ᴘʟᴜɢɪɴ.
+◈ ᴀʟʟ ᴛʜɪɴɢ ᴡᴏʀʟᴅ ɪꜰ ʏᴏᴜ ɴᴇᴇᴅ ᴀɴʏ ᴛʜɪɴɢ ᴘʟᴜɢɪɴ 🎵.
 
-┏━━━━━━━━━━━━━━━━━⧫
-┠ ◆ ꜱᴜᴘᴘᴏʀᴛɪɴɢ ᴘʟᴀᴛꜰᴏʀᴍꜱ : ʏᴏᴜᴛᴜʙᴇ, ꜱᴘᴏᴛɪꜰʏ,
-┠ ◆ ʀᴇꜱꜱᴏ, ᴀᴘᴘʟᴇᴍᴜꜱɪᴄ , ꜱᴏᴜɴᴅᴄʟᴏᴜᴅ ᴇᴛᴄ.
-┗━━━━━━━━━━━━━━━━━⧫
-┏━━━━━━━━━━━━━━━━━⧫
-┠ ➥ Uᴘᴛɪᴍᴇ : {2}
-┠ ➥ SᴇʀᴠᴇʀSᴛᴏʀᴀɢᴇ : {3}
-┠ ➥ CPU Lᴏᴀᴅ : {4}
-┠ ➥ RAM Cᴏɴsᴜᴘᴛɪᴏɴ : {5}
-┠ ➥ ᴜꜱᴇʀꜱ : {6}
-┠ ➥ ᴄʜᴀᴛꜱ : {7}
-┗━━━━━━━━━━━━━━━━━⧫
+─────────────────
+▸ ᴛʀᴀᴄᴋs ᴘʟᴀʏᴇᴅ : ᴡᴏʀʟᴅᴡɪᴅᴇ, ᴛʀᴀᴄᴋs,
+▸ ᴡᴇʟᴄᴏᴍᴇ, sᴜᴘᴘᴏʀᴛᴇʀs , ᴡᴏʀʟᴅ ᴍᴀɴᴀɢᴇʀ ᴇᴛᴄ.
+─────────────────
+─────────────────
+▸ ᴜᴘᴛɪᴍᴇ : {2}
+▸ SʏsᴛᴇᴍSᴛᴀᴛᴜs : {3}
+▸ CPU Lᴏᴀᴅ : {4}
+▸ RAM Cᴏɴsᴜᴍᴘᴛɪᴏɴ : {5}
+▸ ᴘʟᴜɢɪɴs : {6}
+▸ ᴠᴇʀsɪᴏɴ : {7}
+─────────────────
 
-🫧 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🪽 ➪ [𝗞 𝝠 𝗟 𝗩 𝝠 𝗡 • ‹𝟹🌷˖𓂃](https://t.me/MR_KALVAN)
+🫧 ᴅᴇᴠᴇʟᴏᴘᴇʀ 🪪 ➪ [ᴛ ʜ ᴇ ʟ ᴇ ɢ ᴇ ɴ ᴅ • ⁽⁹🌷᭄᭄](https://t.me/MR_KALVAN)
 """
 ]
 
@@ -169,8 +169,4 @@ if SUPPORT_CHANNEL and not re.match(r"^https?://", SUPPORT_CHANNEL):
 if SUPPORT_CHAT and not re.match(r"^https?://", SUPPORT_CHAT):
     raise SystemExit("[ERROR] - Invalid SUPPORT_CHAT URL. Must start with https://")
 
-if not COOKIE_URL:
-    raise SystemExit("[ERROR] - COOKIE_URL is required.")
-
-if not re.match(r"^https://(batbin\.me|pastebin\.com)/[A-Za-z0-9]+$", COOKIE_URL):
-    raise SystemExit("[ERROR] - Invalid COOKIE_URL. Use https://batbin.me/<id> or https://pastebin.com/<id>")
+# ✅ COOKIE_URL validation removed - cookies disabled, API-only mode
