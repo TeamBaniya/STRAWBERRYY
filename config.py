@@ -12,14 +12,14 @@ API_HASH = getenv("API_HASH", "a3270aeee0b1cc4cee60a9f3e74e71d4")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 OWNER_ID = int(getenv("OWNER_ID", 8921626776))
-OWNER_USERNAME = getenv("OWNER_USERNAME", "RAJOWNERX1")
-BOT_USERNAME = getenv("BOT_USERNAME", "@StraberryMusicBot")
-BOT_NAME = getenv("BOT_NAME", "˹𝐀ɴɴɪᴇ ✘ 𝙼ᴜsɪᴄ˼ ♪")
-ASSUSERNAME = getenv("ASSUSERNAME", "musicxstraberry")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "MR_KALVAN")
+BOT_USERNAME = getenv("BOT_USERNAME", "@BOMMYMUSICBOT")
+BOT_NAME = getenv("BOT_NAME", "˹˹𝐁ᴏᴍᴍʏ ♪ ᴍᴜꜱɪᴄ ˼")
+ASSUSERNAME = getenv("ASSUSERNAME", "musicxbommy")
 
 # ── Database & logging ─────────────────────────────────────────────────────────
 MONGO_DB_URI = getenv("MONGO_DB_URI")
-LOGGER_ID = int(getenv("LOGGER_ID", -1002950085457))
+LOGGER_ID = int(getenv("LOGGER_ID", -1004330228401))
 
 # ── Limits (durations in min/sec; sizes in bytes) ──────────────────────────────
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 300))
@@ -43,7 +43,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 # ── Git / updates ──────────────────────────────────────────────────────────────
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/ItsMeVishal0/STRABERRY.git")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/TeamBaniya/STRAWBERRYY.git")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv("GIT_TOKEN")  # needed if repo is private
 
@@ -154,7 +154,7 @@ AYUV = [
 ┠ ➥ ᴄʜᴀᴛꜱ : {7}
 ┗━━━━━━━━━━━━━━━━━⧫
 
-🫧 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🪽 ➪ [»»—— ⭕ ғͥғɪᴄͣɪͫ͢͢͢ᴀℓ 🇷 AJ »︎](https://t.me/RAJOWNERX1)
+🫧 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🪽 ➪ [𝗞 𝝠 𝗟 𝗩 𝝠 𝗡 • ‹𝟹🌷˖𓂃](https://t.me/MR_KALVAN)
 """
 ]
 
